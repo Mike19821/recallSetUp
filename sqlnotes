@@ -1,0 +1,21 @@
+create/drop database <name of data base>;
+
+create table <tablename>(
+columnname type [restriction] [comments],
+...
+)
+
+exp:
+
+use <databasename> # open the database
+
+create table <tablename>(
+id int unsigned primary key; # primary key means no two int are the same
+name varchar(20) not null;
+sex char[1] not null;
+birthday date not null;
+...
+);
+
+
+insert into <tablename> values(<value corresponding to the row of the table>);
