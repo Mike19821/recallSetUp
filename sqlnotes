@@ -19,3 +19,8 @@ birthday date not null;
 
 
 insert into <tablename> values(<value corresponding to the row of the table>);
+
+show tables; # show the tables name
+desc <tablename> # show the things in the table
+show create table <tablename> # show the command when creating this table
+drop table student # drop this whole table
